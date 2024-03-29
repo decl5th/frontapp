@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    color: #000;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+html {
+    font-size: 13px;
+    background-color: #f8f8f8;
+    
+}
+
+/* 스타일 초기화 Begin */
+body {
+    margin: 0;
+}
+
+ul,ol, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+/* 스타일 초기화 Done */
+
+/* 공통 스타일 B */
+.montserrat{
+    font-family: "Montserrat", sans-serif; 
+}
+
+h3 {
+    font-size: 1.538rem;
+    color: #212121;
+    text-align: center;
+    line-height: 1;
+    padding: 20px;
+
+}
+/* 공통 스타일 D */
+
+/* 헤더 영역 B */
+
+header .site-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0 15px;
+}
+
+header .logo img{
+    height: 34px;
+}
+
+header .site-top i {
+    font-size: 2rem; 
+}
+
+header .site-top .left i{
+    margin-right: 10px;
+}
+
+header .site-top .right i{
+    margin-left: 10px;
+}
+
+header nav {
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid #e7e7e7;
+    position: relative;
+}
+
+header nav a {
+    flex-grow: 1;
+    width: 0; 
+    text-align: center;
+    line-height: 49px;
+    font-size: 1.538rem;
+    font-weight: 700;
+}
+
+
+/* 헤더 영역 D */
+
+
+/* footer 영역 B */
+footer {
+    background-color: #f9f9f9;
+    padding: 25px 0 80px;
+    margin-top: 25px; 
+}
+
+footer .logo img {
+    width: 79px;
+    display: block;
+    margin: 0 auto 12px; 
+}
+
+footer .center-phone {
+    border: 2px solid #2a2a2a;
+    border-radius: 20px;
+    display: block;
+    height: 35px;
+    line-height: 31px;
+    text-align: center;
+    width: 190px;
+    color: #2a2a2a;
+    font-weight: 800;
+    font-size: 1.538rem;
+    margin: 0 auto 7px;
+}
+
+footer .center-phone img {
+    height: 16px;
+    vertical-align: middle;
+
+}
+
+footer .bank-info {
+    font-size: 0.923rem;
+    color: #2a2a2a;
+    text-align: center;
+    
+}
+
+footer .bank-info span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer .company-info {
+    font-size: 0.923rem;
+    color: #878787;
+    font-weight: 600;
+    text-align: center;
+    margin: 3px 0 8px;
+}
+
+footer .company-info img {
+    width: 15px;
+    vertical-align: middle;
+}
+
+footer .links {
+    text-align: center;
+}
+
+footer .links a{
+    color: #878787;
+    padding: 0 11px;
+    font-size: 0.846rem;
+    position: relative; 
+
+}
+
+footer .links a:not(.last)::after { 
+    content: '';
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: #878787;
+    position: absolute; 
+    right: 0;
+    top: 4px;    
+}
+
+/* footer 영역 D */
+
+/* 하단 고정 메뉴 B */
+.bottom-quick-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    border-top: 1px solid #dfe1e5;
+    padding: 9px 15px;
+    z-index: 10;
+    padding: 9px 15px;
+}
+
+.bottom-quick-menu button {
+    width: 26px;
+    height: 30px;
+}
+
+.bottom-quick-menu .links {
+    display: flex;
+}
+
+.bottom-quick-menu .links a{
+    flex-grow: 1;
+    width: 0;
+}
+
+.bottom-quick-links{
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    z-index: 10;
+}
+
+.bottom-quick-links img{
+    display: block;
+    width: 50px;
+    margin-top: 10px;
+
+}
+/* 하단 고정 메뉴 D */
